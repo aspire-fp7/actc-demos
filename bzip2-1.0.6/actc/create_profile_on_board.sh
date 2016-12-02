@@ -37,7 +37,7 @@ profile_files="profiling_section.${application}.self_profiling"
 
 run_command="cd $ssh_path; rm -f ${profile_files}; ./bzip2 --compress bzip2_input.txt; ./bzip2 --decompress bzip2_input.txt.bz2"
 
-profile_to_plaintext=/opt/repositories/diablo/self-profiling/binary_profile_to_plaintext.py
+profile_to_plaintext=/opt/diablo/scripts/profiles/binary_profile_to_plaintext.py
 
 #---------------
 #Functions

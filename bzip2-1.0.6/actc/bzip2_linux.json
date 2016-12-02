@@ -229,7 +229,7 @@
       // collect execution profile on target board
       "_02": {
         "excluded": false,
-        "script" : ""
+        "script" : "/projects/actc-demos/bzip2-1.0.6/actc/create_profile_on_board.sh"
       },
     
       // recompile using execution profile and calculate dynamic metrics
@@ -281,7 +281,7 @@
       "_01": {
         "excluded": false,
         "options" : "",
-        "script" : "create_profile_on_board.sh"
+        "script" : "/projects/actc-demos/bzip2-1.0.6/actc/create_profile_on_board.sh"
       },
     
       // recompile using execution profile and calculate dynamic metrics
