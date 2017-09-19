@@ -31,7 +31,7 @@
     "csurf":                  "NOT_HERE",
     "codeguard":              "/opt/codeguard/codeguard.py",
     "anti_cloning":           "NOT_HERE",
-    "attestator_selector":    "/opt/RA/attestator_selector.sh",
+    "attestator_selector":    "/opt/RA/scripts/attestator_selector.sh",
     "reaction_unit":          "NOT_HERE",
     "dcl":                    "NOT_HERE",
     "cft":                    "NOT_HERE",
