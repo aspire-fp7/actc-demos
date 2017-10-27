@@ -307,7 +307,7 @@
 
     // Remote Attestation
     "P80": {
-      "script": "/opt/RA/deploy/deploy.sh"},
+      "script": "/opt/RA/scripts/deploy.sh"},
 
     // Renewability
     "RENEWABILITY": {
