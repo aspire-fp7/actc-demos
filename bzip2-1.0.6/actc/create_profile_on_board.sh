@@ -33,11 +33,11 @@ src_path="${src}"
 dst_path="${src_path}/profiles/"
 
 application_source="${application}.self_profiling"
-profile_files="profiling_section.${application}.self_profiling"
+profile_files="profiling_data.${application}.self_profiling"
 
 run_command="cd $ssh_path; rm -f ${profile_files}; ./bzip2 --compress bzip2_input.txt; ./bzip2 --decompress bzip2_input.txt.bz2"
 
-profile_to_plaintext=/opt/diablo/scripts/profiles/binary_profile_to_plaintext.py
+profile_to_plaintext=/opt/diablo/bin/scripts/profiles/binary_profile_to_plaintext.py
 
 #---------------
 #Functions
@@ -62,7 +62,7 @@ function copy_to_board()
 
 function run()
 {
-  #run the application on the board. This genereates a 'profiling_section.libdiamante.so.self_profiling' file on the board.
+  #run the application on the board. This generates a 'profiling_data.libdiamante.so.self_profiling' file on the board.
   ssh ${ssh_options} ${ssh_user}@${ssh_host} "${run_command}"
 }
 
